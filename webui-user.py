@@ -71,7 +71,6 @@ def run_bat_file(file_path):
 def set_environment_variables():
     os.environ["VENV_DIR"] = VENV_DIR
     os.environ["COMMANDLINE_ARGS"] = COMMANDLINE_ARGS_STR
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 def set_console_title(title):
     os.system(f"title {title}")
