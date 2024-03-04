@@ -23,6 +23,7 @@
 
 - このスクリプトは、Windows環境でのみ動作します。
 - スクリプトを実行する前に、必要なパスや環境変数を適切に設定してください。
+- このスクリプトは、Stable Diffusion WebUI Forgeが提供するワンクリックインストールパッケージを使用しているユーザーに限定されています。
 
 \# Stable Diffusion WebUI (A1111)のディレクトリの絶対パスを入力してください。
 
@@ -36,14 +37,11 @@ WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
 
 WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
 
-## 下記はStable Diffusion WebUI (A1111)で利用しているフォルダを指定しています。
+## Stable Diffusion WebUI (A1111)で使用されるディレクトリ：
 
 - --ckpt-dir: モデルのチェックポイントが格納されているディレクトリ
-
 - --embeddings-dir: 埋め込みが格納されているディレクトリ
-
 - --hypernetwork-dir: ハイパーネットワークが格納されているディレクトリ
-
 - --lora-dir: Loraが格納されているディレクトリ
 
 ## ライセンス
@@ -78,6 +76,7 @@ This Python script automates the process of updating and launching Stable Diffus
 
 - This script works only on Windows environments.
 - Before running the script, make sure to set up the necessary paths and environment variables properly.
+- This script is intended for users who are using the one-click installation package provided by Stable Diffusion WebUI Forge.
 
 \# Please input the absolute path of the directory where Stable Diffusion WebUI (A1111) is located.
 
