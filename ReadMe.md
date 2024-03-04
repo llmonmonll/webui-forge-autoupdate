@@ -37,7 +37,7 @@ WEB_UI_FORGE = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**
 
 WEB_UI = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**\webui"
 
-## Stable Diffusion WebUI (A1111)で使用されるディレクトリ：
+## Stable Diffusion WebUI (A1111)で使用されるディレクトリを指定済みです：
 
 - --ckpt-dir: モデルのチェックポイントが格納されているディレクトリ
 - --embeddings-dir: 埋め込みが格納されているディレクトリ
@@ -90,7 +90,7 @@ WEB_UI_FORGE = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**
 
 WEB_UI = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**\webui"
 
-## Directories used in Stable Diffusion WebUI (A1111):
+## Directory used by Stable Diffusion WebUI (A1111) already specified:
 
 - --ckpt-dir: Directory where model checkpoints are stored.
 - --embeddings-dir: Directory where embeddings are stored.
