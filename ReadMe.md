@@ -28,7 +28,11 @@
 
 A1111_HOME = r"\absolute\path\to\stable-diffusion-webui"
 
-\# Stable Diffusion WebUI Forge (lllyasviel)のディレクトリ内のwebuiフォルダの絶対パスを入力してください。
+\# Stable Diffusion WebUI Forge (lllyasviel)のディレクトリの絶対パスを入力してください。
+
+WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
+
+\# Stable Diffusion WebUI Forge (lllyasviel)のwebuiフォルダの絶対パスを入力してください。
 
 WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
 
@@ -71,6 +75,10 @@ This Python script automates the process of updating and launching Stable Diffus
 A1111_HOME = r"\absolute\path\to\stable-diffusion-webui"
 
 \# Please input the absolute path of the directory where Stable Diffusion WebUI Forge (lllyasviel) is located.
+
+WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
+
+\# Please input the absolute path of the directory where the webui folder is located inside Stable Diffusion WebUI Forge (lllyasviel).
 
 WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
 
