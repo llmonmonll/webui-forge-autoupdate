@@ -44,6 +44,16 @@ WEB_UI = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**\webui
 - --hypernetwork-dir: ハイパーネットワークが格納されているディレクトリ
 - --lora-dir: Loraが格納されているディレクトリ
 
+使用しない場合
+
+`# === Normal ===`
+
+`# COMMANDLINE_ARGS = [`
+
+`#     "--theme", "dark"`
+
+`# ]`
+
 ## ライセンス
 
 このプロジェクトは MIT ライセンスのもとで公開されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
@@ -96,6 +106,16 @@ WEB_UI = r"**\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)**\webui
 - --embeddings-dir: Directory where embeddings are stored.
 - --hypernetwork-dir: Directory where hypernetworks are stored.
 - --lora-dir: Directory where Lora is stored.
+
+If not used
+
+`# === Normal ===`
+
+`# COMMANDLINE_ARGS = [`
+
+`#     "--theme", "dark"`
+
+`# ]`
 
 ## License
 
