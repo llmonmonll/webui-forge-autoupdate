@@ -36,6 +36,11 @@ os.environ["LAUNCH_PATH"] = LAUNCH_PATH
 
 VENV_DIR = os.path.join(A1111_HOME, "venv")
 
+# === Normal ===
+# COMMANDLINE_ARGS = [
+#     "--theme", "dark"
+# ]
+
 # === If a backslash is required, use subsequent COMMANDLINE_ARGS. Comment out this COMMANDLINE_ARGS. ===
 # COMMANDLINE_ARGS = [
 #     "--ckpt-dir", os.path.join(A1111_HOME, "models", "Stable-diffusion"),
