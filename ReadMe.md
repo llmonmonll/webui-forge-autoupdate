@@ -1,5 +1,3 @@
----
-
 # Stable Diffusion WebUI Forgeの自動更新と起動
 
 このPythonスクリプトは、Stable Diffusion WebUI Forgeの自動更新と起動を行います。
@@ -26,17 +24,20 @@
 - このスクリプトは、Windows環境でのみ動作します。
 - スクリプトを実行する前に、必要なパスや環境変数を適切に設定してください。
 
+\# Stable Diffusion WebUI (A1111)のディレクトリの絶対パスを入力してください。
+A1111_HOME = r"\absolute\path\to\stable-diffusion-webui"
+
+\# Stable Diffusion WebUI Forge (lllyasviel)のディレクトリの絶対パスを入力してください。
+WEB_UI = r"\absolute\path\to\webui"
+
 ## ライセンス
 
 このプロジェクトは MIT ライセンスのもとで公開されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
 
 ---
+### English version
 
-English version
-
----
-
-# Automatic Update and Launch of Stable Diffusion WebUI Forge
+# Stable Diffusion WebUI Forge Automatic Update and Launch
 
 This Python script automates the process of updating and launching Stable Diffusion WebUI Forge.
 
@@ -62,8 +63,12 @@ This Python script automates the process of updating and launching Stable Diffus
 - This script works only on Windows environments.
 - Before running the script, make sure to set up the necessary paths and environment variables properly.
 
+\# Please input the absolute path of the directory where Stable Diffusion WebUI (A1111) is located.
+A1111_HOME = r"\absolute\path\to\stable-diffusion-webui"
+
+\# Please input the absolute path of the directory where Stable Diffusion WebUI Forge (lllyasviel) is located.
+WEB_UI = r"\absolute\path\to\webui"
+
 ## License
 
 This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
-
----
