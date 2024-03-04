@@ -7,10 +7,13 @@ import datetime
 A1111_HOME = r"\absolute\path\to\stable-diffusion-webui"
 
 # Absolute path of the directory where Stable Diffusion WebUI Forge (lllyasviel) is located.
-WEB_UI = r"\absolute\path\to\webui"
+WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
+
+# Absolute path of the directory where Stable Diffusion WebUI Forge (lllyasviel) is located.
+WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
 
 
-DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "system")
+DIR = os.path.join(WEB_UI_FORGE, "system")
 GIT_BIN_PATH = os.path.join(DIR, "git", "bin")
 PYTHON_PATH = os.path.join(DIR, "python")
 PYTHON_SCRIPTS_PATH = os.path.join(DIR, "python", "Scripts")
