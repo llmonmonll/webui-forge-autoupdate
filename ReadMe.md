@@ -23,7 +23,7 @@
 
 - このスクリプトは、Windows環境でのみ動作します。
 - スクリプトを実行する前に、必要なパスや環境変数を適切に設定してください。
-- このスクリプトは、Stable Diffusion WebUI Forgeが提供するワンクリックインストールパッケージを使用しているユーザーに限定されています。
+- **このスクリプトは、Stable Diffusion WebUI Forgeが提供するワンクリックインストールパッケージを使用しているユーザーに限定されています。**
 
 \# Stable Diffusion WebUI (A1111)のディレクトリの絶対パスを入力してください。
 
@@ -76,7 +76,7 @@ This Python script automates the process of updating and launching Stable Diffus
 
 - This script works only on Windows environments.
 - Before running the script, make sure to set up the necessary paths and environment variables properly.
-- This script is intended for users who are using the one-click installation package provided by Stable Diffusion WebUI Forge.
+- **This script is intended for users who are using the one-click installation package provided by Stable Diffusion WebUI Forge.**
 
 \# Please input the absolute path of the directory where Stable Diffusion WebUI (A1111) is located.
 
