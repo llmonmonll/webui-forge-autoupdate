@@ -36,15 +36,24 @@ WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
 
 WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
 
+## 下記はStable Diffusion WebUI (A1111)で利用しているフォルダを指定しています。
+
+- --ckpt-dir: モデルのチェックポイントが格納されているディレクトリ
+
+- --embeddings-dir: 埋め込みが格納されているディレクトリ
+
+- --hypernetwork-dir: ハイパーネットワークが格納されているディレクトリ
+
+- --lora-dir: Loraが格納されているディレクトリ
+
 ## ライセンス
 
 このプロジェクトは MIT ライセンスのもとで公開されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
 
-
 ---
 ### English version
 
-# Stable Diffusion WebUI Forge Automatic Update and Launch
+# Automatic Update and Launch of Stable Diffusion WebUI Forge
 
 This Python script automates the process of updating and launching Stable Diffusion WebUI Forge.
 
@@ -81,6 +90,13 @@ WEB_UI_FORGE = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)"
 \# Please input the absolute path of the directory where the webui folder is located inside Stable Diffusion WebUI Forge (lllyasviel).
 
 WEB_UI = r"\absolute\path\to\Stable Diffusion WebUI Forge (lllyasviel)\webui"
+
+## Directories used in Stable Diffusion WebUI (A1111):
+
+- --ckpt-dir: Directory where model checkpoints are stored.
+- --embeddings-dir: Directory where embeddings are stored.
+- --hypernetwork-dir: Directory where hypernetworks are stored.
+- --lora-dir: Directory where Lora is stored.
 
 ## License
 
