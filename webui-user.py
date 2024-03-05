@@ -112,6 +112,7 @@ def main():
         # run_bat_file("update.bat")
         os.system(os.path.join(WEB_UI, "webui.bat"))
     else:
+        os.chdir(WEB_UI)
         os.system(os.path.join(WEB_UI, "webui.bat"))
 if __name__ == "__main__":
     main()
